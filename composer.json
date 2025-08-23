@@ -2,7 +2,7 @@
     "name": "onetwist-software/mailwizz",
     "description": "Self-hosted email marketing software",
     "require": {
-        "php": ">=7.2,<7.3",
+        "php": ">=8.2,<8.3",
         "ext-libxml": "*",
         "ext-json": "*",
         "ext-curl": "*",
