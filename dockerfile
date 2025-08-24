@@ -2,4 +2,4 @@ FROM webdevops/php-apache:8.2
 
 COPY . /app/
 
-RUN chmod -R 775 /app
+RUN chown -R application:application /app && chmod -R 777 /app
